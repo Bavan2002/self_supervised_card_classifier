@@ -1,0 +1,79 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+.venv/
+ENV/
+env/
+.env
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# PyTorch Models
+*.pth
+*.pt
+models/*.pth
+models/*.pt
+
+# Data directories (keep structure, ignore large files)
+data/unlabeled_documents/*.png
+data/unlabeled_documents/*.jpg
+data/unlabeled_documents/*.jpeg
+data/labeled_documents/*/*.png
+data/labeled_documents/*/*.jpg
+data/labeled_documents/*/*.jpeg
+
+# Logs
+*.log
+logs/
+*.out
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# UV package manager
+.uv/
+uv.lock
+.python-version
+
+# Template/example files
+main.py
+
+# Old files
+old/
+*.old
+
+# OS
+Thumbs.db
