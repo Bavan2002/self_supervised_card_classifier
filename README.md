@@ -18,6 +18,9 @@ uv run streamlit run app.py
 
 Then open http://localhost:8501 in your browser and upload a document image!
 
+![Web UI Screenshot](results/web_ui.png)
+*Example: Visiting card classification with 96.23% confidence*
+
 ## Overview
 
 This project implements a two-stage training pipeline:
